@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CCCM Events</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" sizes="16px 16px">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+    <div class="navBar flex-middle">
+        <div class="flex-middle">
+            <a href="index.html"><img src="assets/logo.png" width="40" height="40"></a>
+            <span style="margin-left: 1em;">CCCM Events</span>
+        </div>
+        
+        <div></div>
+        
+        <div class="flex-middle">
+            <div class="navButton"><a href="index.html" class="black animateYellow">Home</a></div>
+            
+            <div class="navButton"><a href="swimming.html" class="black animateYellow">Swimming Carnival</a></div>
+
+            <div class="navButton"><a href="error.html" class="black animateYellow">Lent</a></div>
+
+            <div class="navButton"><a href="error.html" class="black animateYellow">Multicultural Day</a></div>
+        </div>
+    </div>
+    
+    <div class="titleScreen flex-middle flex-center" id="swimming">
+        <div class="titleScreenOverlay"><span class="inter-text" style="font-size: 0.5em; position: absolute; bottom: 0; right: 0; margin: 1em;">Photographer: James Newell</span></div>
+        <span class="inter-header heroHeading top">Swimming Carnival</span>
+        <span class="inter-regular top" style="font-size: 0.8em; margin-top: 1%; color: #CFCFCF">
+            <i class="fa-solid fa-location-dot" style="color: white;"></i>
+            &nbsp;
+            Botany Aquatic Centre
+        </span>
+    </div>
+    
+    
+    <div class="blockSection">
+        <div>
+            <span class="inter-semibold top" style="font-size: 1.4em;">Results for: </span>
+            <i class="fa-solid fa-chevron-down top" style="color: black; transform: translateX(6.9em); pointer-events:  none;"></i>
+            <select name="swimmingYear" id="swimmingYear" onchange="changeData()">
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+            </select>
+        </div>
+        
+        <!-- <span class="inter-semibold" style="margin-top: 1.2em;">This year was rainy. There was no swimming carnival this year.</span> -->
+    </div>
+    
+    <div class="blockSection" id="swimmingChart">
+        <span class="inter-semibold" style="font-size: 1.2em; font-weight: 500;">House Points Tally</span>
+        <canvas id="myChart" width="10dvw" height="4dvh"></canvas>
+        <button onclick="switchBarColor()" class="navButton heroAction small black inter-regular selected" id="chartContrastToggle">High Contrast Mode</button>
+    </div>
+
+
+    <div class="section message">
+        <div class="sectionOverlay"></div>
+        <div class="textCard">
+            <span class="inter-header">About the Swimming Carnival</span>
+            <p class="inter-regular" id="swimmingMessage">
+                The 2025 College Swimming Carnival was held on Tuesday 18th February at Botany Aquatic Centre. 
+                Students in the championship events started at 8am and the competition was fierce. 
+                After the championship events had concluded, all students began on a rotation system of activities to earn house points. 
+                After a successful carnival, the winning house was <strong>CHANEL.</strong> 
+                Congratulations to all students who are in Chanel and winning the House Championship for 2025.
+            </p>
+            <div class="flex-middle" style="justify-content: flex-start;">
+                <a href="https://www.instagram.com/p/DGPXm2eyTkG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="black" target="_blank" rel="noopener noreferrer" id="swimmingLink"><div class="navButton heroAction small">
+                    <i class="fa-brands fa-instagram" style="margin-right: 2px;"></i>
+                    View Photos
+                </div></a>
+            </div>
+        </div>
+    
+        <img src="assets/image10.jpg" alt="" width="290px" height="290px" class="dropShadow">
+    </div>
+
+    <div class="blockSection">
+        <div id="searchCard">
+            <div style="display: flex; flex-direction: column;">
+                <span class="inter-semibold">Championship Data</span>
+                <span class="inter-regular" id="dataTitle">Find results from 2025’s Championship Events</span>
+            </div>
+
+            <div id="categoryButtons">
+                <button onclick="searchSwimmer()" class="navButton heroAction small black searchButton inter-regular selected" id="bySwimmer">By Swimmer</button>
+                <button onclick="searchAge()" class="navButton heroAction small black searchButton inter-regular" id="byAge">By Age</button>
+                <button onclick="searchHouse()" class="navButton heroAction small black searchButton inter-regular" id="byHouse">By House</button>
+                <button onclick="searchEvent()" class="navButton heroAction small black searchButton inter-regular" id="byEvent">By Event</button>
+            </div>
+
+            <input type="text" id="searchInput" placeholder="Search by swimmer">
+        </div>
+    </div>
+    
+    <div class="blockSection" id="swimmingTableSection">
+        <table>
+            <tr>
+                <th>Swimmer</th>
+                <th>Age</th>
+                <th>House</th>
+                <th>Event</th>
+                <th>Time</th>
+            </tr>
+
+            <tbody id="swimmingDataTable"></tbody>
+
+        </table>
+    </div>
+
+
+
+    <div class="blockSection">
+        <div id="indivPoints">
+            <div style="width: 50%; padding-left: 3em;" class="flex-center">
+                <div style="display: flex; flex-direction: column;">
+                    <span class="inter-semibold" style="font-size: 1.9em;">How many points did you contribute?</span>
+                </div>
+
+                <input type="text" id="indivSearch" placeholder="Search by student name">
+            </div>
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center; width: 50%;">
+                <span class="inter-semibold" id="pointsName">Type your name</span>
+                <span class="inter-regular" id="pointsScored">You scored: 0 points</span>
+                <span class="inter-regular" id="pointsPlace">You are 0th</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section" id="pointsSection">
+        <div class="blockSection" id="pointsTop">
+            <span class="inter-semibold" style="margin-right: auto; margin-left: 0.6em; margin-top: 0.5em;">Top 3 Contributors</span>
+            <span style="margin-right: auto; margin-top: 0.2em; margin-left: 1em;">Highest point contributions towards house points</span>
+
+            <div id="pointsPodium">
+                <div class="rectangle" style="height: 22dvh;">
+                    <span id="pointsPodiumPlace2" class="inter-semibold">2</span>
+                    <span id="pointsPodiumPoints2">138 pts</span>
+                    <span id="pointsPodiumName2" style="text-align: center; transform: translateY(-6.5em);">Firstname Lastname</span>
+                </div>
+                <div class="rectangle" style="height: 30dvh;">
+                    <span id="pointsPodiumPlace1" class="inter-semibold">1</span>
+                    <span id="pointsPodiumPoints1">150 pts</span>
+                    <span id="pointsPodiumName1" style="text-align: center; transform: translateY(-6.5em);">Firstname Lastname</span>
+                </div>
+                <div class="rectangle" style="height: 15dvh;">
+                    <span id="pointsPodiumPlace3" class="inter-semibold">3</span>
+                    <span id="pointsPodiumPoints3">129 pts</span>
+                    <span id="pointsPodiumName3" style="text-align: center; transform: translateY(-6.5em);">Firstname Lastname</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="blockSection" id="pointsTableWrapper">
+            <span class="inter-semibold" style="margin-right: auto; margin-bottom: 0.5em;">Points Contributed</span>
+            <table id="pointsContributedTable">
+
+                <tbody id="pointsDataTable"></tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="flex-middle">
+            <a href="index.html"><img src="assets/logo.png" width="60" height="60"></a>
+            <span style="margin-left: 1em;" class="inter-semibold">CCCM Events</span>
+        </div>
+        <div class="footerSection">
+            <span class="inter-semibold" style="margin-bottom: 0.5em;">Learn more</span>
+            <a href="about.html" class="inter-regular">About this site</a>
+            <a href="references.html" class="inter-regular">References</a>
+        </div>
+        <div class="footerSection">
+            <span class="inter-semibold" style="margin-bottom: 0.5em;">Links</span>
+            <a href="https://cccmaroubra-nsw.compass.education" target="_blank" rel="noopener noreferrer" class="inter-regular">Compass</a>
+            <a href="https://sites.google.com/syd.catholic.edu.au/cccmsport/home" class="inter-regular" target="_blank" rel="noopener noreferrer">CCCM Sport</a>
+            <a href="https://sites.google.com/syd.catholic.edu.au/cccpteachingandlearningsite/home" class="inter-regular" target="_blank" rel="noopener noreferrer">Teaching & Learning</a>
+        </div>
+        <div class="footerSection">
+            <span class="inter-semibold" style="margin-bottom: 0.5em;">Sitemap</span>
+            <a href="index.html" class="inter-regular">Home</a>
+            <a href="index.html#events" class="inter-regular">Events</a>
+            <a href="swimming.html" class="inter-regular">Swimming Carnival</a>
+            <a href="error.html" class="inter-regular">Error</a>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
