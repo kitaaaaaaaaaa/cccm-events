@@ -1,0 +1,338 @@
+[
+  {
+    "place": "1",
+    "surname": "Tattershall",
+    "firstname": "Nathan",
+    "year": "11",
+    "house": "Chavoin",
+    "points": "60"
+  },
+  {
+    "place": "2",
+    "surname": "Knight",
+    "firstname": "Sienna",
+    "year": "7",
+    "house": "Ozanam",
+    "points": "57"
+  },
+  {
+    "place": "3",
+    "surname": "Grant",
+    "firstname": "Manaia",
+    "year": "8",
+    "house": "Chavoin",
+    "points": "56"
+  },
+  {
+    "place": "4",
+    "surname": "Frias",
+    "firstname": "Adam",
+    "year": "9",
+    "house": "Ozanam",
+    "points": "55"
+  },
+  {
+    "place": "5",
+    "surname": "Berger",
+    "firstname": "Indi",
+    "year": "8",
+    "house": "Ozanam",
+    "points": "55"
+  },
+  {
+    "place": "6",
+    "surname": "Slewo",
+    "firstname": "John",
+    "year": "8",
+    "house": "Chavoin",
+    "points": "54"
+  },
+  {
+    "place": "7",
+    "surname": "Chappell",
+    "firstname": "Havana",
+    "year": "8",
+    "house": "Ozanam",
+    "points": "54"
+  },
+  {
+    "place": "8",
+    "surname": "May",
+    "firstname": "Izaak",
+    "year": "8",
+    "house": "Francis",
+    "points": "53"
+  },
+  {
+    "place": "9",
+    "surname": "Keksz",
+    "firstname": "Reese",
+    "year": "7",
+    "house": "Chisholm",
+    "points": "53"
+  },
+  {
+    "place": "10",
+    "surname": "Anderson",
+    "firstname": "Samuel",
+    "year": "10",
+    "house": "Francis",
+    "points": "51"
+  },
+  {
+    "place": "11",
+    "surname": "Lomu-Stewart",
+    "firstname": "Jean",
+    "year": "7",
+    "house": "Ozanam",
+    "points": "48"
+  },
+  {
+    "place": "12",
+    "surname": "Malandris",
+    "firstname": "Louis",
+    "year": "7",
+    "house": "Chisholm",
+    "points": "48"
+  },
+  {
+    "place": "13",
+    "surname": "Kwock",
+    "firstname": "Paiton",
+    "year": "10",
+    "house": "Mackillop",
+    "points": "46"
+  },
+  {
+    "place": "14",
+    "surname": "Doyle",
+    "firstname": "Leila",
+    "year": "7",
+    "house": "Chavoin",
+    "points": "43"
+  },
+  {
+    "place": "15",
+    "surname": "Lynch",
+    "firstname": "Daniel",
+    "year": "10",
+    "house": "Ozanam",
+    "points": "43"
+  },
+  {
+    "place": "16",
+    "surname": "Smith",
+    "firstname": "Quinn",
+    "year": "7",
+    "house": "Chanel",
+    "points": "42"
+  },
+  {
+    "place": "17",
+    "surname": "McCarthy",
+    "firstname": "Alfie",
+    "year": "12",
+    "house": "Mackillop",
+    "points": "41"
+  },
+  {
+    "place": "18",
+    "surname": "Howson",
+    "firstname": "Nate",
+    "year": "10",
+    "house": "Chisholm",
+    "points": "41"
+  },
+  {
+    "place": "19",
+    "surname": "Campbell",
+    "firstname": "Jack",
+    "year": "7",
+    "house": "Mackillop",
+    "points": "40"
+  },
+  {
+    "place": "20",
+    "surname": "Lawrence",
+    "firstname": "Bastian",
+    "year": "11",
+    "house": "Chanel",
+    "points": "40"
+  },
+  {
+    "place": "21",
+    "surname": "Mechreki",
+    "firstname": "Joseph",
+    "year": "8",
+    "house": "Chanel",
+    "points": "39"
+  },
+  {
+    "place": "22",
+    "surname": "May",
+    "firstname": "Kahn",
+    "year": "10",
+    "house": "Francis",
+    "points": "38"
+  },
+  {
+    "place": "23",
+    "surname": "Carland",
+    "firstname": "Benjamin",
+    "year": "8",
+    "house": "Ozanam",
+    "points": "37"
+  },
+  {
+    "place": "24",
+    "surname": "Lynch",
+    "firstname": "Richard",
+    "year": "7",
+    "house": "Ozanam",
+    "points": "36"
+  },
+  {
+    "place": "25",
+    "surname": "O'Neill",
+    "firstname": "Rupert",
+    "year": "8",
+    "house": "Francis",
+    "points": "36"
+  },
+  {
+    "place": "26",
+    "surname": "Ingelmo",
+    "firstname": "Joshua",
+    "year": "9",
+    "house": "Chanel",
+    "points": "34"
+  },
+  {
+    "place": "27",
+    "surname": "Constantinides",
+    "firstname": "Samuel",
+    "year": "8",
+    "house": "Chisholm",
+    "points": "31"
+  },
+  {
+    "place": "28",
+    "surname": "Mackillopenzie",
+    "firstname": "Gerard",
+    "year": "7",
+    "house": "Francis",
+    "points": "31"
+  },
+  {
+    "place": "29",
+    "surname": "Newnam",
+    "firstname": "Emma",
+    "year": "7",
+    "house": "Chavoin",
+    "points": "30"
+  },
+  {
+    "place": "30",
+    "surname": "Thomson",
+    "firstname": "Marishka",
+    "year": "8",
+    "house": "Chisholm",
+    "points": "28"
+  },
+  {
+    "place": "31",
+    "surname": "Browne",
+    "firstname": "Christopher",
+    "year": "7",
+    "house": "Francis",
+    "points": "27"
+  },
+  {
+    "place": "32",
+    "surname": "Constantinides",
+    "firstname": "Kristopher",
+    "year": "12",
+    "house": "Chisholm",
+    "points": "26"
+  },
+  {
+    "place": "33",
+    "surname": "Fernandes",
+    "firstname": "Jacinta",
+    "year": "7",
+    "house": "Chavoin",
+    "points": "26"
+  },
+  {
+    "place": "34",
+    "surname": "Horridge",
+    "firstname": "Logan",
+    "year": "9",
+    "house": "Chanel",
+    "points": "25"
+  },
+  {
+    "place": "35",
+    "surname": "Jerich",
+    "firstname": "Marco",
+    "year": "9",
+    "house": "Chavoin",
+    "points": "25"
+  },
+  {
+    "place": "36",
+    "surname": "Burton",
+    "firstname": "Adam",
+    "year": "10",
+    "house": "Chavoin",
+    "points": "20"
+  },
+  {
+    "place": "37",
+    "surname": "Brydson",
+    "firstname": "Maddie",
+    "year": "8",
+    "house": "Ozanam",
+    "points": "19"
+  },
+  {
+    "place": "38",
+    "surname": "Rayburn",
+    "firstname": "Luke",
+    "year": "8",
+    "house": "Mackillop",
+    "points": "18"
+  },
+  {
+    "place": "39",
+    "surname": "Wallgate",
+    "firstname": "Jack",
+    "year": "9",
+    "house": "Chisholm",
+    "points": "18"
+  },
+  {
+    "place": "40",
+    "surname": "Ord",
+    "firstname": "Jasmine",
+    "year": "7",
+    "house": "Chavoin",
+    "points": "18"
+  },
+  {
+    "place": "41",
+    "surname": "Wilson",
+    "firstname": "Zara",
+    "year": "8",
+    "house": "Chisholm",
+    "points": "17"
+  },
+  {
+    "place": "42",
+    "surname": "Guerra",
+    "firstname": "Darcy",
+    "year": "7",
+    "house": "Chavoin",
+    "points": "16"
+  }
+]

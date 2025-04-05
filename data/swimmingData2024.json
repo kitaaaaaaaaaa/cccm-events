@@ -1,0 +1,398 @@
+[
+  {
+    "surname": "Coote",
+    "firstname": "Fynn",
+    "age": "12",
+    "house": "Ozanam",
+    "time": "44.50",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Keith",
+    "firstname": "Mateo",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "49.93",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Mackenzie",
+    "firstname": "Gerard",
+    "age": "12",
+    "house": "Francis",
+    "time": "52.78",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Volcz Yaparie",
+    "firstname": "Winston",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "58.41",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Fernandes",
+    "firstname": "Jacinta",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "34.63",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Buckett",
+    "firstname": "Isis",
+    "age": "12",
+    "house": "Chanel",
+    "time": "38.00",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Reid",
+    "firstname": "Taylor",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "41.25",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Guerra",
+    "firstname": "Darcy",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "42.34",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Da Silva Costa",
+    "firstname": "Ellie",
+    "age": "12",
+    "house": "Chavoin",
+    "time": "48.51",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Gellin",
+    "firstname": "Taylor",
+    "age": "12",
+    "house": "Chanel",
+    "time": "48.63",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "De Leeuw",
+    "firstname": "Matisse",
+    "age": "12",
+    "house": "Chisholm",
+    "time": "50.63",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Gough",
+    "firstname": "Joshua",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "34.12",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Choong",
+    "firstname": "Bradley",
+    "age": "13",
+    "house": "Francis",
+    "time": "34.19",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Jenkin",
+    "firstname": "Josh",
+    "age": "13",
+    "house": "Chanel",
+    "time": "34.28",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Coote",
+    "firstname": "Bede",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "36.53",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Kusnadi",
+    "firstname": "Joshua",
+    "age": "14",
+    "house": "Chisholm",
+    "time": "37.59",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Berger",
+    "firstname": "Indi",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "35.84",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Chappell",
+    "firstname": "Havana",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "36.94",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Brydson",
+    "firstname": "Maddie",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "38.72",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Rehak",
+    "firstname": "Jocelyn",
+    "age": "14",
+    "house": "Mackillop",
+    "time": "39.50",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Valencia Tueros",
+    "firstname": "Marina",
+    "age": "14",
+    "house": "Chisholm",
+    "time": "40.04",
+    "event": "Freestyle",
+    "distance": "50"
+  },
+  {
+    "surname": "Rusli",
+    "firstname": "Dea",
+    "age": "12",
+    "house": "Mackillop",
+    "time": "1:01.13",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Gellin",
+    "firstname": "Taylor",
+    "age": "12",
+    "house": "Chanel",
+    "time": "1:02.17",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Doyle",
+    "firstname": "Leila",
+    "age": "13",
+    "house": "Chavoin",
+    "time": "51.31",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Smith",
+    "firstname": "Quinn",
+    "age": "13",
+    "house": "Chanel",
+    "time": "53.03",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Pratiknyo",
+    "firstname": "Anabelle",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "54.31",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Stuart",
+    "firstname": "Sophie",
+    "age": "13",
+    "house": "Chavoin",
+    "time": "56.10",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Fong",
+    "firstname": "Zoe",
+    "age": "13",
+    "house": "Chanel",
+    "time": "56.50",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Brydson",
+    "firstname": "Maddie",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "47.28",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Berger",
+    "firstname": "Indi",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "47.31",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Chappell",
+    "firstname": "Havana",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "57.69",
+    "event": "Backstroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Gough",
+    "firstname": "Joshua",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "47.35",
+    "event": "Breaststroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Choong",
+    "firstname": "Bradley",
+    "age": "13",
+    "house": "Francis",
+    "time": "48.69",
+    "event": "Breaststroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Vargas",
+    "firstname": "Harry",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "48.88",
+    "event": "Breaststroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Jenkin",
+    "firstname": "Josh",
+    "age": "13",
+    "house": "Chanel",
+    "time": "59.25",
+    "event": "Breaststroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Gaffney",
+    "firstname": "Jack",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "1:05.84",
+    "event": "Breaststroke",
+    "distance": "50"
+  },
+  {
+    "surname": "Gough",
+    "firstname": "Joshua",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "44.06",
+    "event": "Butterfly",
+    "distance": "50"
+  },
+  {
+    "surname": "Vargas",
+    "firstname": "Harry",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "48.37",
+    "event": "Butterfly",
+    "distance": "50"
+  },
+  {
+    "surname": "Jenkin",
+    "firstname": "Josh",
+    "age": "13",
+    "house": "Chanel",
+    "time": "1:01.65",
+    "event": "Butterfly",
+    "distance": "50"
+  },
+  {
+    "surname": "Gaffney",
+    "firstname": "Jack",
+    "age": "13",
+    "house": "Mackillop",
+    "time": "1:07.06",
+    "event": "Butterfly",
+    "distance": "50"
+  },
+  {
+    "surname": "Doherty",
+    "firstname": "Milla",
+    "age": "13",
+    "house": "Chanel",
+    "time": "1:21.16",
+    "event": "Freestyle",
+    "distance": "100"
+  },
+  {
+    "surname": "Turton",
+    "firstname": "Angus",
+    "age": "14",
+    "house": "Francis",
+    "time": "1:22.68",
+    "event": "Freestyle",
+    "distance": "100"
+  },
+  {
+    "surname": "O'Shea",
+    "firstname": "Bede",
+    "age": "14",
+    "house": "Chanel",
+    "time": "1:33.70",
+    "event": "Freestyle",
+    "distance": "100"
+  },
+  {
+    "surname": "Berger",
+    "firstname": "Indi",
+    "age": "14",
+    "house": "Ozanam",
+    "time": "1:23.10",
+    "event": "Freestyle",
+    "distance": "100"
+  }
+]
