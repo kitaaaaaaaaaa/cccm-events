@@ -1,4 +1,4 @@
-<h1>Website is hosted at this <a href="">link</a></h1>
+<h1>Website is hosted at this <a href="https://kitaaaaaaaaaa.github.io/cccm-events/">link</a></h1>
 
 <p> This is a data journalism website aimed to promote student engagement with school events. By attaching data and gamifying school events, it fosters higher levels of enthusiasm among students for school events. </p>
 
