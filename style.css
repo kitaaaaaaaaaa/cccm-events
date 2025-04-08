@@ -46,8 +46,6 @@
     font-style: normal;
 
     font-size: 1.3em;
-
-    color: var(--text);
 }
 
 .inter-regular {
@@ -57,9 +55,6 @@
     font-style: normal;
 
     font-size: 1em;
-
-    color: var(--text);
-
 }
 
 .inter-regular.light {
